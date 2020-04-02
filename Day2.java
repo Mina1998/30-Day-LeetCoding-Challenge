@@ -7,8 +7,8 @@ public class Main {
 		System.out.println(isHappy(19));
 	}
 	
+	// Second Day : Happy Number
 	public static boolean isHappy(int num) {
-		
 		int sum;
 		for (int i = 0 ; i < 10 ; i++) {
 			sum = 0;
