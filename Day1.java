@@ -8,7 +8,7 @@ public class Main {
 		System.out.println(num);
 	}
 	
-	// First Day
+	// First Day : Single Number
 	public static int singleNumber(int[] nums) {
 		Arrays.sort(nums);
 		for (int i = 0 ; i < nums.length ; i++) {
